@@ -19,7 +19,8 @@ public class Multiples {
             } else if (divisibleBy5) {
                 count = count + 1;
             } else {
-                count = count + 0;
+
+
             }
 
         }
