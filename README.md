@@ -12,7 +12,7 @@ https://github.com/CSC207-2025F-UofT/FizzBuzz/
 Click this button to create a fork of this repository, which will be your own copy of the codebase to edit as you please.
 In the new page that comes up, confirm that you want to create the fork and your own FizzBuzz repository will be created
 on GitHub!
-
+edit
 2. Now that you have your own fork of this repository, close this page, go to your fork, and continue with the next instructions.
 
 3. The next step is to get a local copy of your FizzBuzz repository on your own computer.
