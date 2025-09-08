@@ -16,6 +16,7 @@ public class ReduceTest {
                 "Reduce.reduce(100) is incorrect");
     }
 
+
     @Test
     public void testReduceTwoHundred() {
         assertEquals(10,
