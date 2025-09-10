@@ -2,27 +2,23 @@ package lab1;
 
 public class Multiples {
 
+    // Overloaded method (no arguments, default case)
     public static int multiples() {
+        return multiples(1000, 3, 5);
+    }
 
-        int count = 0;
-        for (int i = 1; i < 1000; i++) {
-
-            // Find out which numbers divide i.
-            boolean divisibleBy3 = i % 3 == 0;
-            boolean divisibleBy5 = i % 5 == 0;
-
-            // Print our appropriate result.
-            if (divisibleBy3 && divisibleBy5) {
-                count = count + 1;
-            } else if (divisibleBy3) {
-                count = count + 1;
-            } else if (divisibleBy5) {
-                count = count + 1;
-            } else {
-
-
+    // General method
+    public static int multiples(int n, int a, int b) {
+        int sum = 0;
+        for (int i = 1; i < n; i++) {
+            if (i % a == 0 || i % b == 0) {
+                sum += i; // add the number itself, not just +1
             }
-
         }
+        return sum;
+    }
+
+    public static void main(String[] args) {
+        System.out.println(multiples()); // should print 233168
     }
 }
